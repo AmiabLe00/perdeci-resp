@@ -1,0 +1,170 @@
+<!DOCTYPE html> <!--BU PROJE ASLA VE ASLA PERDECI LATIF ISIMLI ISLETMEYE AIT DEGILDIR. KENDIM ICIN OGRENMEK BILDIKLERIMI UYGULAMAK ADINA BIR CALISMA BIR PROJEDIR.-->
+<html lang="tr">
+    <head>
+       <title>Perdeci Latif - iletisim
+       </title>
+       <meta charset="utf-8"> 
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+       <style>
+        div.orta {
+            text-align: center;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+}
+
+        ul { 
+            list-style-type: none;
+            background-color: #333333;
+            line-height: 3em;
+            margin: 0;
+            padding: 0;
+            overflow:hidden;
+            display: flex;
+        }
+        
+        li {
+            width: 100%;
+            float: left;
+            
+        }
+        li a {
+        
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            
+
+        }
+        li a:hover {
+            background-color: #111111;
+            
+        }
+
+        div.insta { 
+          position: fixed;
+          bottom: 0;
+          right: 0;
+        }
+
+        p.a {
+            font-size: 2.5ch;
+            text-align: center;
+        }
+
+        aside {
+  width: 25vw;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+.myImage {
+  float: left;
+  height: 350px;
+  width: 350px;
+  font-family: Veranda;
+}
+.heading {
+  float: right;
+  font-size: 2vw;
+  text-align: center;
+  
+}
+
+footer {
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width:860px) { 
+  ul { 
+    display: grid;
+  }
+}
+@media screen and (max-width:860px) {
+   aside {
+    float: left;
+    width: 100%;
+   }
+}
+
+
+
+       </style>
+    </head>
+
+    <body style="background-color: #E8E1D6;">
+        <div style="background-color: bisque;">
+            <header>
+                <hgroup style="text-align: center;">
+               <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"> <b>PERDECILATIF.COM</b> </h2>
+               <h1>BrilliantHome</h1>
+               <h2 style="font-family:monospace">"Evimiz Mükemmel Olsun"</h3>
+              
+                </hgroup>
+            </header>
+        </div>
+
+        <div class="orta"> 
+            <nav>
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+            </div>
+            <h2 style="text-align: center;">Formu doldurarak bizlerle iletişime geçebilirsiniz.</h2>
+            <aside>
+               <form action="/action_page.php">
+                   <div style="float: right;">
+                   <label for="msg">Mesaj: </label>
+                   <textarea name="msg" rows="15" cols="30"></textarea><br><br>
+                   </div>
+                  <label for="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;İSİM:&nbsp;</label>
+                   <input type="text" id="name" name="name"><br><br>
+                  <label for="surname">&nbsp;&nbsp;SOYİSİM:&nbsp;</label>
+                   <input type="text" id="surname" name="surname"><br><br>
+                  <label for="email">&nbsp;&nbsp;E-POSTA:&nbsp;</label>
+                   <input type="email" id="email" name="email" placeholder="xxxxxx@xxxxx.com"><br><br>
+                  <label for="tel">TELEFON:&nbsp;</label>
+                   <input type="tel" id="tel" name="tel" placeholder="(xxx)-xxx-xx-xx" pattern="[0,9]{3}-[0,9]{3}-[0,9]{2}-[0,9]{2}" required><br><br>
+                   <input type="submit" value="Kaydet" onclick="alert('Formu doldurduğunuz için teşekkürler. Mesajınız dikkate alınıp talebiniz doğrultusunda sizlere ulaşılacaktır.');"> 
+                   <!--Tum kutucuklar dogru dolduruldugunda kaydet butonu tiklanilabilir olmasini istiyordum fakat onun icin javascript kullanmam gerekiyormus pek de anlayamadim kafam karisti boyle idare edelim :D-->                 
+               </form>
+           </aside>
+            <article>
+                <header><h1>İletişim Bilgileri</h1>
+                 </header>
+                 <nav>
+                    <p>
+                    <img src="foto/placeholder.png" style="height: 16px;"> Hamidiye, İstiklal Cd. No:17, 16600 Gemlik/Bursa
+                    </p>
+                    <p>
+                    <img src="foto/tel.png" style="width: 16px;">&nbsp; 0224 513 08 10
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.0122763596783!2d29.153703951164683!3d40.43072706261029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca5b9bd036a2eb%3A0x5fd55659690c41b4!2sPerdeci%20Latif!5e0!3m2!1str!2str!4v1674043188836!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+                 </nav>
+            </article>
+            <footer><br><br><br><br><br><br>
+                <div class="orta" style="font-size: larger;"> 
+                    
+                    <p><br><br>
+                        &copy 2023. Perdeci Latif. Tüm Hakları Saklıdır.
+                    </p>
+                    </div>
+            </footer>
+    </body>
+    </html>
+            
+
+
+            
